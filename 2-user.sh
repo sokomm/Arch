@@ -18,15 +18,6 @@ cd ${HOME}/yay
 makepkg -si --noconfirm
 cd ~
 
-git clone "https://aur.archlinux.org/goodvibes.git"
-cd goodvibes
-makepkg -si --noconfirm
-cd ~
-
-git clone "https://aur.archlinux.org/viber.git"
-cd viber
-makepkg -si --noconfirm
-cd ~
 
 touch "$HOME/.cache/zshhistory"
 git clone "https://github.com/ChrisTitusTech/zsh"
@@ -59,14 +50,6 @@ PKGS=(
 'ttf-meslo' # Nerdfont package
 'ttf-roboto'
 'snap-pac'
-'remmina'
-'freerdp'
-'plank'
-'virtualbox'
-'wine'
-'openvpn'
-'network-manager-applet'
-'libreoffice-fresh'
 
 )
 
