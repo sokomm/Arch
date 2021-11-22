@@ -18,6 +18,15 @@ cd ${HOME}/yay
 makepkg -si --noconfirm
 cd ~
 
+git clone https://aur.archlinux.org/goodvibes.git
+cd goodvibes
+makepkg -si --noconfirm
+cd ~
+
+git clone https://aur.archlinux.org/viber.git
+cd viber
+makepkg -si --noconfirm
+cd ~
 
 touch "$HOME/.cache/zshhistory"
 git clone "https://github.com/ChrisTitusTech/zsh"
@@ -53,8 +62,6 @@ PKGS=(
 
 'timeshift'
 'virtualbox-ext-oracle'
-'viber'
-'goodvibes'
 )
 
 for PKG in "${PKGS[@]}"; do
