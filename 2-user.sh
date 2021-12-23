@@ -18,13 +18,21 @@ cd ${HOME}/yay
 makepkg -si --noconfirm
 cd ~
 
+echo "CLONING: GOODVIBES"
 git clone https://aur.archlinux.org/goodvibes.git
 cd goodvibes
 makepkg -si --noconfirm
 cd ~
 
+echo "CLONING: VIBER"
 git clone https://aur.archlinux.org/viber.git
 cd viber
+makepkg -si --noconfirm
+cd ~
+
+echo "CLONING: EPSON PRINTER DRIVERS"
+git clone https://aur.archlinux.org/epson-inkjet-printer-escpr.git
+cd epson-inkjet-printer-escpr
 makepkg -si --noconfirm
 cd ~
 
