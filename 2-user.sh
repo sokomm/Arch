@@ -67,7 +67,7 @@ PKGS=(
 'ttf-meslo' # Nerdfont package
 'ttf-roboto'
 'snap-pac'
-
+'brother-cups-wrapper-laser' # Drajver za Brother
 'timeshift'
 'virtualbox-ext-oracle'
 )
