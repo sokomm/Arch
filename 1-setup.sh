@@ -211,7 +211,6 @@ PKGS=(
 'openvpn'
 'gnome-disk-utility'
 'os-prober'
-'prusa-slicer'
 
 )
 
